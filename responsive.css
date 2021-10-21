@@ -1,0 +1,111 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .content {
+    width: 70%;
+  }
+  
+  .header-right{
+    margin-right: 220px;
+  }
+
+  .header-right a{
+    padding: 2px 15px;
+  }
+
+  .kotak{
+    width: 79%;
+    text-align: center;
+  }
+
+  .btn-wrapper{
+    margin-right: 18%;
+  }
+
+  .copy-heading1 h3{
+    width: 25%;
+  }
+
+  .copy-heading2 h3{
+    width: 25%;
+    margin-top: 2810px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+    width: 81%;
+  }
+
+  .i-contents, .e-contents{
+    width: 100%;
+    margin-left: 70px;
+  }
+
+  .content-wrapper{
+    height: 5770px;
+  }
+
+  .selengkapnya{
+    margin-right: 550px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .content {
+    width: 100%;
+  }
+  .kotak{
+    width: 50%;
+    text-align: center;
+  }
+  .top-wrapper {
+    padding: 180px 0 120px 0;
+    background-image: url("horse.jpg");
+    background-size: contain;
+    color: rgb(5, 5, 5);
+    text-align: center;       
+  }
+  .heading h2, .content-title, .content-author, .txt-contents{
+    width: 53%;
+  }
+  .copy-heading1 h3{
+    width: 25%;
+  }
+
+  footer {
+    text-align: center;
+  }
+  
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
