@@ -2,7 +2,7 @@
 @media all and (max-width: 1000px) {
  
   .container {
-    width: 78%;
+    width: 53%%;
   }
   .header-right{
     margin-right: 220px;
@@ -82,7 +82,7 @@
     color: rgb(5, 5, 5);
     text-align: left;       
   }
-  .heading h2, .content-title, .content-author, .txt-contents{
+  .content-title, .content-author, .txt-contents{
     width: 53%;
   }
   .copy-heading1 h3{
@@ -92,7 +92,16 @@
   footer {
     text-align: center;
   }
-  
+  .heading h2 {
+    font-weight: smaller;
+    background-color: cadetblue;
+    height: 55px;
+    width: 670px;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-top: 20px;  
+    color: white;
+}
   
   .facebook {
     margin-bottom: 10px;
@@ -145,4 +154,13 @@
   .content-image img {
     float: none;
   } 
+  .copy-heading2 h3 {
+    font-weight: normal;
+    background-color: rgb(134, 120, 115);
+    height: 35px;
+    width: 79%;
+    padding: 15px 0 0 15px;
+    margin-top: 1200px;
+    text-align: left;
+    color: white;
 }
