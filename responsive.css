@@ -1,33 +1,45 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .content {
-    width: 70%;
+ 
+  .container {
+    width: 78%;
   }
-  
   .header-right{
     margin-right: 220px;
   }
-
+  .logo {
+    padding-left: 5px;
+  }
   .header-right a{
     padding: 2px 15px;
+    font-size: 12px;
   }
-
+  .header-center {
+    font-size: 15px;
+  }
   .kotak{
     width: 79%;
     text-align: center;
   }
-
+  .kotak h1 {
+    font-size: 25px;
+  }
+  .kotak p {
+    font-size: 12px;
+  }
   .btn-wrapper{
     margin-right: 18%;
   }
 
   .copy-heading1 h3{
     width: 25%;
+    padding-left: 15px 0 0 5px;
   }
 
   .copy-heading2 h3{
     width: 25%;
     margin-top: 2810px;
+    padding-left: 15px 0 0 5px;
   }
 
   .top-wrapper h1 {
@@ -35,13 +47,14 @@
   }
   
   .heading h2 {
-    font-size: 20px;
-    width: 81%;
+    font-size: 18px;
+    width: 75%;
+    text-align: center;
   }
 
   .i-contents, .e-contents{
     width: 100%;
-    margin-left: 70px;
+    margin-left: 40px;
   }
 
   .content-wrapper{
