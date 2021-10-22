@@ -1,45 +1,33 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
- 
-  .container {
-    width: 53%%;
+  .content {
+    width: 70%;
   }
+  
   .header-right{
     margin-right: 220px;
   }
-  .logo {
-    padding-left: 5px;
-  }
+
   .header-right a{
     padding: 2px 15px;
-    font-size: 12px;
   }
-  .header-center {
-    font-size: 15px;
-  }
+
   .kotak{
     width: 79%;
     text-align: center;
   }
-  .kotak h1 {
-    font-size: 25px;
-  }
-  .kotak p {
-    font-size: 12px;
-  }
+
   .btn-wrapper{
     margin-right: 18%;
   }
 
   .copy-heading1 h3{
     width: 25%;
-    padding-left: 15px 0 0 5px;
   }
 
   .copy-heading2 h3{
     width: 25%;
     margin-top: 2810px;
-    padding-left: 15px 0 0 5px;
   }
 
   .top-wrapper h1 {
@@ -47,14 +35,13 @@
   }
   
   .heading h2 {
-    font-size: 18px;
-    width: 75%;
-    text-align: center;
+    font-size: 20px;
+    width: 81%;
   }
 
   .i-contents, .e-contents{
     width: 100%;
-    margin-left: 40px;
+    margin-left: 70px;
   }
 
   .content-wrapper{
@@ -68,21 +55,21 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .container {
+  .content {
     width: 100%;
   }
   .kotak{
     width: 50%;
-    text-align: left;
+    text-align: center;
   }
   .top-wrapper {
-    padding: 180px 0 0 0;
+    padding: 180px 0 120px 0;
     background-image: url("horse.jpg");
     background-size: contain;
     color: rgb(5, 5, 5);
-    text-align: left;       
+    text-align: center;       
   }
-  .content-title, .content-author, .txt-contents{
+  .heading h2, .content-title, .content-author, .txt-contents{
     width: 53%;
   }
   .copy-heading1 h3{
@@ -92,16 +79,7 @@
   footer {
     text-align: center;
   }
-  .heading h2 {
-    font-weight: smaller;
-    background-color: cadetblue;
-    height: 55px;
-    width: 670px;
-    text-align: left;
-    letter-spacing: 2px;
-    padding-top: 20px;  
-    color: white;
-}
+  
   
   .facebook {
     margin-bottom: 10px;
@@ -117,50 +95,17 @@
   }
   
   /* Tambahkan CSS untuk menu-icon */
-  .menu-icon span{
+  .menu-icon{
     display: block;
   }
   
   .top-wrapper h1 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 36px;
   }
   
   .top-wrapper p {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 20px;
   }
-  .header-right a{
-    padding: 2px 15px;
-    font-size: 10px;
-  }
-  .header-center {
-    font-size: 15px;
-  }
-  .kotak{
-    width: 79%;
-    text-align: center;
-  }
-  .kotak h1 {
-    font-size: 20px;
-  }
-  .kotak p {
-    font-size: 10px;
-  }
-  .i-contents, .e-contents{
-    width: 100%;
-    margin-left: 20px;
-  }
-  .content-image img {
-    float: none;
-  } 
-  .copy-heading2 h3 {
-    font-weight: normal;
-    background-color: rgb(134, 120, 115);
-    height: 35px;
-    width: 79%;
-    padding: 15px 0 0 15px;
-    margin-top: 1200px;
-    text-align: left;
-    color: white;
 }
