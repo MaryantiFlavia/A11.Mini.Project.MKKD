@@ -68,17 +68,17 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .contentainer {
+  .container {
     width: 100%;
   }
   .kotak{
     width: 50%;
-    text-align: center;
+    text-align: left;
   }
   .top-wrapper {
     padding: 180px 0 120px 0;
     background-image: url("horse.jpg");
-    background-size: cover;
+    background-size: contain;
     color: rgb(5, 5, 5);
     text-align: center;       
   }
@@ -108,7 +108,7 @@
   }
   
   /* Tambahkan CSS untuk menu-icon */
-  .menu-icon{
+  .menu-icon span{
     display: block;
   }
   
