@@ -76,11 +76,11 @@
     text-align: left;
   }
   .top-wrapper {
-    padding: 180px 0 120px 0;
+    padding: 180px 0 0 0;
     background-image: url("horse.jpg");
     background-size: contain;
     color: rgb(5, 5, 5);
-    text-align: center;       
+    text-align: left;       
   }
   .heading h2, .content-title, .content-author, .txt-contents{
     width: 53%;
@@ -142,4 +142,7 @@
     width: 100%;
     margin-left: 20px;
   }
+  .content {
+    float: none;
+  } 
 }
