@@ -68,7 +68,7 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .content {
+  .contentainer {
     width: 100%;
   }
   .kotak{
@@ -78,7 +78,7 @@
   .top-wrapper {
     padding: 180px 0 120px 0;
     background-image: url("horse.jpg");
-    background-size: contain;
+    background-size: cover;
     color: rgb(5, 5, 5);
     text-align: center;       
   }
@@ -113,12 +113,33 @@
   }
   
   .top-wrapper h1 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
   }
   
   .top-wrapper p {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 20px;
+  }
+  .header-right a{
+    padding: 2px 15px;
+    font-size: 10px;
+  }
+  .header-center {
+    font-size: 15px;
+  }
+  .kotak{
+    width: 79%;
+    text-align: center;
+  }
+  .kotak h1 {
+    font-size: 20px;
+  }
+  .kotak p {
+    font-size: 10px;
+  }
+  .i-contents, .e-contents{
+    width: 100%;
+    margin-left: 20px;
   }
 }
